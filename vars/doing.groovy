@@ -4,9 +4,9 @@ def call(Map args) {
         agent any
 
         stages {
-            stage('step 1') {
+            stage('step 2') {
                 steps {
-                    init()
+                    println('echo doing')
                 }
             }
         }
