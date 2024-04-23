@@ -6,9 +6,11 @@ def call(Map args) {
         stages {
             stage('step 1') {
                 steps {
-                    init()
+                    println('doing')
                 }
             }
         }
     }
+
+    init()
 }
